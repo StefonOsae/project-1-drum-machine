@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(148, 64, 197);
+  text-align: center;
+  background-image: linear-gradient(rgb(17, 0, 255), rgb(140, 0, 255));
+}
+h1{
+    color: #cfcff0;
+    text-align: center;
+    text-shadow: #666;
+  }
+  button {
+    border: none;
+    border-radius: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: none;
+    align-items: center;
+    height: 125px;
+    width: 125px;
+    font-size: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    box-shadow: 0 5px #666;
+  }
+  button:active {
+    background-color: gold;
+  }
+  .pad {
+    position: relative;
+    div {
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -70px 0 0 -170px;
+    }
+
+  }

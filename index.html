@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js"></script>
+    <title>THE BEAT MACHINE</title>
+    
+</head> 
+    <h1>THE BEAT MACHINE</h1>
+<body>
+    <div class="pad">
+        <div>
+            <button type="button" onclick="playSound('808_kick')">KICK<img src="./IMAGES/icons8-audio-wave-50.png"/></button>
+            <button type="button" onclick="playSound('808_clap')">CLAP<img src="./IMAGES/icons8-audio-wave-50.png"/></button>
+            <button type="button" onclick="playSound('808_snare')">SNARE<img src="./IMAGES/icons8-audio-wave-50.png"/></button>
+        </div>
+        <div>
+            <button type="button" onclick="playSound('808_cowbell')">COWBELL<img src="./IMAGES/icons8-audio-wave-50.png"/></button>
+            <button type="button" onclick="playSound('808_hihatclosed')">HHCLSD<img src="./IMAGES/icons8-audio-wave-50.png"/></button>
+            <button type="button" onclick="playSound('808_hihatopen')">HHOPEN<img src="./IMAGES/icons8-audio-wave-50.png"/></button>
+        </div>
+        <div>
+            <button type="button" onclick="playSound('808_tom')">TOM<img src="./IMAGES/icons8-audio-wave-50.png"/></button>
+            <button type="button" onclick="playSound('909_tom')">PERC<img src="./IMAGES/icons8-audio-wave-50.png"/></button>
+            <button type="button" onclick="playSound('808_cymbal')">CRASH<img src="./IMAGES/icons8-audio-wave-50.png"p/></button>
+        </div>
+    </div>
+    <audio src="Samples/sounds/808_kick.wav" autostart="false" id="808_kick"></audio>
+    <audio src="Samples/sounds/808_clap.wav" autostart="false" id="808_clap"></audio>
+    <audio src="Samples/sounds/808_snare.wav" autostart="false" id="808_snare"></audio>
+    <audio src="Samples/sounds/808_cowbell.wav" autostart="false" id="808_cowbell"></audio>
+    <audio src="Samples/sounds/808_hihatclosed.wav" autostart="false" id="808_hihatclosed"></audio>
+    <audio src="Samples/sounds/808_hihatopen.wav" autostart="false" id="808_hihatopen"></audio>
+    <audio src="Samples/sounds/808_tom.wav" autostart="false" id="808_tom"></audio>
+    <audio src="Samples/sounds/909_tom.wav" autostart="false" id="909_tom"></audio>
+    <audio src="Samples/sounds/808_cymbal.wav" autostart="false" id="808_cymbal"></audio>
+
+</body>
+</html>
